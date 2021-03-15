@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3103168",
+      "name": "电视",
+      "font_class": "dianshi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

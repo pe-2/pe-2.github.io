@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13899866",
+      "name": "邮箱",
+      "font_class": "ziyuan",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

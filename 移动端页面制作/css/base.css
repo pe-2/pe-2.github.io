@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-color: rgb(230 230 230);
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_zi4z4ssponq/iconfont.eot');
+    src: url('../font_zi4z4ssponq/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_zi4z4ssponq/iconfont.woff2') format('woff2'), url('../font_zi4z4ssponq/iconfont.woff') format('woff'), url('../font_zi4z4ssponq/iconfont.ttf') format('truetype'), url('../font_zi4z4ssponq/iconfont.svg#iconfont') format('svg');
+}
+
+.sear {
+    font-family: "iconfont" !important;
+    font-size: 19px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    display: block;
+    width: 40px;
+    height: 24px;
+    margin-right: -3px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.game-button {
+    font-family: "iconfont" !important;
+    font-size: 23px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_wogy8o1ab0b/iconfont.eot');
+    src: url('../font_wogy8o1ab0b/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_wogy8o1ab0b/iconfont.woff2') format('woff2'), url('../font_wogy8o1ab0b/iconfont.woff') format('woff'), url('../font_wogy8o1ab0b/iconfont.ttf') format('truetype'), url('../font_wogy8o1ab0b/iconfont.svg#iconfont') format('svg');
+}
+
+.email-button {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: -3px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_qopy1djgp4/iconfont.eot');
+    src: url('../font_qopy1djgp4/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_qopy1djgp4/iconfont.woff2') format('woff2'), url('../font_qopy1djgp4/iconfont.woff') format('woff'), url('../font_qopy1djgp4/iconfont.ttf') format('truetype'), url('../font_qopy1djgp4/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_zc4mqrta46/iconfont.eot');
+    src: url('../font_zc4mqrta46/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_zc4mqrta46/iconfont.woff2') format('woff2'), url('../font_zc4mqrta46/iconfont.woff') format('woff'), url('../font_zc4mqrta46/iconfont.ttf') format('truetype'), url('../font_zc4mqrta46/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_zc4mqrta46/iconfont.eot');
+    src: url('../font_zc4mqrta46/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_zc4mqrta46/iconfont.woff2') format('woff2'), url('../font_zc4mqrta46/iconfont.woff') format('woff'), url('../font_zc4mqrta46/iconfont.ttf') format('truetype'), url('../font_zc4mqrta46/iconfont.svg#iconfont') format('svg');
+}
+
+#sear {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    display: block;
+    width: 40px;
+    height: 24px;
+    margin-right: -3px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_ttd7n4nzdy/iconfont.eot');
+    src: url('../font_ttd7n4nzdy/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_ttd7n4nzdy/iconfont.woff2') format('woff2'), url('../font_ttd7n4nzdy/iconfont.woff') format('woff'), url('../font_ttd7n4nzdy/iconfont.ttf') format('truetype'), url('../font_ttd7n4nzdy/iconfont.svg#iconfont') format('svg');
+}
+
+.vedio div:nth-child(1) p:nth-child(2) {
+    font-family: "iconfont" !important;
+    font-size: 15px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
