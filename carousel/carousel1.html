@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两张图的轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .carousel1 a img {
+            width: 400px;
+            animation: carou 6s ease infinite;
+        }
+        
+        .carousel1 {
+            width: 400px;
+            border: 0px solid red;
+            white-space: nowrap;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        @keyframes carou {
+            %0 {
+                transform: translate(0, 0);
+            }
+            23% {
+                transform: translate(0, 0);
+            }
+            27% {
+                transform: translate(-100%, 0);
+            }
+            73% {
+                transform: translate(-100%, 0);
+            }
+            77% {
+                transform: translate(-200%, 0);
+            }
+            100% {
+                transform: translate(-200%, 0);
+            }
+        }
+        
+        @keyframes cwhite {
+            %0 {
+                background-color: #fb7299;
+            }
+            23% {
+                background-color: #fb7299;
+            }
+            27% {
+                background-color: #fff;
+            }
+            73% {
+                background-color: #fff;
+            }
+            77% {
+                background-color: #fb7299;
+            }
+            100% {
+                background-color: #fb7299;
+            }
+        }
+        
+        @keyframes cpink {
+            %0 {
+                background-color: #fff;
+            }
+            23% {
+                background-color: #fff;
+            }
+            27% {
+                background-color: #fb7299;
+            }
+            73% {
+                background-color: #fb7299;
+            }
+            77% {
+                background-color: #fff;
+            }
+            100% {
+                background-color: #fff;
+            }
+        }
+        
+        .dot {
+            width: 25px;
+            height: 20px;
+            position: absolute;
+            top: 82%;
+            left: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .dot span:nth-child(1) {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #FB7299;
+            animation: cwhite 6s infinite;
+        }
+        
+        .dot span:nth-child(2) {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #fff;
+            animation: cpink 6s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel1">
+        <a href=""><img src="../images/nice_girl.webp" alt=""></a>
+        <a href=""><img src="../images/love.webp" alt=""></a>
+        <a href=""><img src="../images/nice_girl.webp" alt=""></a>
+        <div class="dot"><span></span><span></span></div>
+    </div>
+</body>
+
+</html>
