@@ -162,3 +162,21 @@
                                                                 src: url('../font/cha-icon/iconfont.eot');
                                                                 src: url('../font/cha-icon/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/cha-icon/iconfont.woff2') format('woff2'), url('../font/cha-icon/iconfont.woff') format('woff'), url('../font/cha-icon/iconfont.ttf') format('truetype'), url('../font/cha-icon/iconfont.svg#iconfont') format('svg');
                                                             }
+                                                            
+                                                            @keyframes colorchange {
+                                                                0% {
+                                                                    background-color: #fff;
+                                                                }
+                                                                50% {
+                                                                    background-color: rgb(245 245 245);
+                                                                }
+                                                                100% {
+                                                                    background-color: #fff;
+                                                                }
+                                                            }
+                                                            
+                                                            @font-face {
+                                                                font-family: 'iconfont';
+                                                                src: url('../font/people-icon/iconfont.eot');
+                                                                src: url('../font/people-icon/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/people-icon/iconfont.woff2') format('woff2'), url('../font/people-icon/iconfont.woff') format('woff'), url('../font/people-icon/iconfont.ttf') format('truetype'), url('../font/people-icon/iconfont.svg#iconfont') format('svg');
+                                                            }
