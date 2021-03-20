@@ -1,329 +1,333 @@
-    .space {
-        width: 100%;
-        background-color: #333;
-        height: 20px;
-        opacity: 0;
-    }
-    /* 头部样式表开始 */
-    
-    .head {
-        width: 100%;
-        height: 60px;
-        background-color: #fff;
-        /* 弹性布局 */
-        /* 设为Flex布局以后，子元素的float、clear和vertical-align（文字对齐）三个属性属性将失效 */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .avatar {
-        background-color: #fff;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-width: 60px;
-    }
-    
-    .avatar a {
-        width: 67%;
-        height: 67%;
-        border-radius: 50%;
-        background-color: rgb(245 245 245);
-        background-image: url(../images/icions/protrait.webp);
-        background-size: 100% auto;
-    }
-    
-    .search {
-        flex-grow: 1;
-        min-width: 28px;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .search-box {
-        width: 90%;
-        height: 40%;
-        border-radius: 12px;
-        background-color: rgb(245 245 245);
-        display: flex;
-        align-items: center;
-        color: #999;
-    }
-    
-    .else {
-        width: 100px;
-        height: 60px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        min-width: 70px;
-    }
-    
-    .else a {
-        color: #999;
-        position: relative;
-    }
-    
-    .else a:last-child::before {
-        content: '1';
-        display: block;
-        position: absolute;
-        right: -5px;
-        top: -3px;
-        font-size: 10px;
-        height: 16px;
-        min-width: 16px;
-        border-radius: 8px;
-        background-color: #e21e1e;
-        color: #fff;
-        text-align: center;
-        transform: scale(0.8);
-    }
-    /* 头部样式表结束*/
-    /* 菜单栏start */
-    
-    .top-nav {
-        width: 474px;
-        height: 40px;
-        background-color: #fff;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-    }
-    
-    .top-nav span a {
-        text-align: center;
-        padding-bottom: 6px;
-    }
-    
-    .top-nav span {
-        flex: auto;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        color: #666;
-    }
-    
-    .top-nav span:hover {
-        background-color: rgb(245 245 245);
-        cursor: pointer;
-    }
-    
-    .top-nav span:hover a {
-        color: #fb7299;
-        border-bottom: 2px solid #fb7299;
-        padding-bottom: 2px;
-    }
-    
-    .nav-space {
-        width: 100%;
-        height: 40px;
-        background-color: #fff;
-    }
-    /* 这样写会有bug,就是点字才有反应,要把a标签放到外面去，以后有空了再改 */
-    /* 菜单栏end */
-    /* 轮播图 */
-    
-    .carousel {
-        width: 95%;
-        border-radius: 4px;
-        margin: 0 auto;
-        margin-top: 10px;
-        position: relative;
-        overflow: hidden;
-        min-width: 310.39px;
-        white-space: nowrap;
-    }
-    
-    .carousel a {
-        height: 100%;
-        width: 100%;
-    }
-    
-    .carousel a img {
-        height: 100%;
-        width: 100%;
-        border-radius: 4px;
-        animation: carou 6s ease infinite;
-    }
-    /* 轮播图 */
-    /* 随机直播 */
-    
-    .random-box {
-        width: 95%;
-        height: 180px;
-        margin: 0 auto;
-        margin-top: 10px;
-        border-radius: 4px;
-    }
-    
-    .random-live {
-        height: 50%;
-        width: 100%;
-        min-width: 310.39px;
-        background-color: #fff;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 0px;
-    }
-    
-    .random-live div p {
-        transform: scale(0.75);
-    }
-    
-    .random-live:first-child {
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-    }
-    
-    .random-live:last-child {
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
-    }
-    
-    .random-live:last-child {}
-    
-    .random-live div a img {
-        width: 49.5px;
-        height: 49.5px;
-    }
-    
-    .random-live div {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-    }
-    /* 随机直播 */
-    
-    .my-anchor {
-        width: 95%;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        height: 35px;
-        background-color: #fff;
-        margin: 0 auto;
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-width: 310.39px;
-        font-size: 14px;
-        box-sizing: border-box;
-        padding-left: 5px;
-        padding-right: 10px;
-    }
-    
-    .my-anchor span:nth-child(1) {
-        width: 56px;
-        font-weight: bold;
-    }
-    
-    .my-anchor span:nth-child(2) {
-        color: #666;
-    }
-    
-    .my-anchor span:nth-child(2) b {
-        color: #333;
-        font-weight: 900;
-    }
-    
-    .my-anchor span:nth-child(3) {
-        width: 16px;
-        height: 16px;
-        border: 2px solid #666;
-        border-top: transparent;
-        border-left: transparent;
-        transform: rotate(-45deg) scale(0.5);
-    }
-    
-    .recommend {
-        width: 95%;
-        min-height: 100vh;
-        border-radius: 4px;
-        margin: 0 auto;
-        margin-top: 10px;
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        min-width: 310.39px;
-        flex-wrap: wrap;
-    }
-    
-    .tv-icon {
-        color: #fb7299;
-        width: 100%;
-        text-align: left;
-        height: 20px;
-        line-height: 20px;
-        box-sizing: border-box;
-        padding-left: 10px;
-        font-family: "iconfont" !important;
-        font-size: 20px;
-        font-style: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        vertical-align: middle;
-        position: relative;
-        top: 10px;
-    }
-    
-    .recommend span {
-        width: 47.5%;
-        margin-top: 10px;
-        background-color: #fff;
-        border-radius: 4px;
-    }
-    
-    .live-photo {
-        width: 100%;
-    }
-    
-    .live-photo img {
-        width: 100%;
-        height: auto;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-    }
-    
-    .live-introduce {
-        height: 40px;
-        width: 100%;
-    }
-    
-    .live-introduce p {
-        text-align: left;
-        font-size: 12px;
-    }
-    
-    .live-introduce p:nth-child(2) {
-        color: #999;
-        box-sizing: border-box;
-        padding-left: 15px;
-    }
-    
-    .live-introduce p:nth-child(2)::after {
-        content: '\e61a';
-        font-family: "iconfont" !important;
-        font-size: 16px;
-        font-style: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        vertical-align: middle;
-        float: right;
-        cursor: pointer;
-        margin-right: 5px;
-    }
-    
-    .live-introduce p:nth-child(1) {
-        box-sizing: border-box;
-        padding-left: 10px;
-    }
+        .space {
+            width: 100%;
+            background-color: #333;
+            height: 20px;
+            opacity: 0;
+        }
+        /* 头部样式表开始 */
+        
+        .head {
+            width: 100%;
+            height: 60px;
+            background-color: #fff;
+            /* 弹性布局 */
+            /* 设为Flex布局以后，子元素的float、clear和vertical-align（文字对齐）三个属性属性将失效 */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .avatar {
+            background-color: #fff;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 60px;
+        }
+        
+        .avatar a {
+            width: 67%;
+            height: 67%;
+            border-radius: 50%;
+            background-color: rgb(245 245 245);
+            background-image: url(../images/icions/protrait.webp);
+            background-size: 100% auto;
+        }
+        
+        .search {
+            flex-grow: 1;
+            min-width: 28px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .search-box {
+            width: 90%;
+            height: 40%;
+            border-radius: 12px;
+            background-color: rgb(245 245 245);
+            display: flex;
+            align-items: center;
+            color: #999;
+        }
+        
+        .else {
+            width: 100px;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-width: 70px;
+        }
+        
+        .else a {
+            color: #999;
+            position: relative;
+        }
+        
+        .else a:last-child::before {
+            content: '1';
+            display: block;
+            position: absolute;
+            right: -5px;
+            top: -3px;
+            font-size: 10px;
+            height: 16px;
+            min-width: 16px;
+            border-radius: 8px;
+            background-color: #e21e1e;
+            color: #fff;
+            text-align: center;
+            transform: scale(0.8);
+        }
+        /* 头部样式表结束*/
+        /* 菜单栏start */
+        
+        .top-nav {
+            width: 474px;
+            height: 40px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+        
+        .top-nav span a {
+            text-align: center;
+            padding-bottom: 6px;
+        }
+        
+        .top-nav span {
+            flex: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: #666;
+        }
+        
+        .top-nav span:hover {
+            background-color: rgb(245 245 245);
+            cursor: pointer;
+        }
+        
+        .top-nav span:hover a {
+            color: #fb7299;
+            border-bottom: 2px solid #fb7299;
+            padding-bottom: 2px;
+        }
+        
+        .nav-space {
+            width: 100%;
+            height: 40px;
+            background-color: #fff;
+        }
+        /* 这样写会有bug,就是点字才有反应,要把a标签放到外面去，以后有空了再改 */
+        /* 菜单栏end */
+        /* 轮播图 */
+        
+        .carousel {
+            width: 95%;
+            border-radius: 4px;
+            margin: 0 auto;
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+            min-width: 310.39px;
+            white-space: nowrap;
+        }
+        
+        .carousel a {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .carousel a img {
+            height: 100%;
+            width: 100%;
+            border-radius: 4px;
+            animation: carou 6s ease infinite;
+        }
+        /* 轮播图 */
+        /* 随机直播 */
+        
+        .random-box {
+            width: 95%;
+            height: 180px;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+        
+        .random-live {
+            height: 50%;
+            width: 100%;
+            min-width: 310.39px;
+            background-color: #fff;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+        
+        .random-live div p {
+            transform: scale(0.75);
+        }
+        
+        .random-live:first-child {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+        
+        .random-live:last-child {
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+        
+        .random-live:last-child {}
+        
+        .random-live div a img {
+            width: 49.5px;
+            height: 49.5px;
+        }
+        
+        .random-live div {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+        /* 随机直播 */
+        
+        .my-anchor {
+            width: 95%;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            height: 35px;
+            background-color: #fff;
+            margin: 0 auto;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 310.39px;
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-left: 5px;
+            padding-right: 10px;
+        }
+        
+        .my-anchor span:nth-child(1) {
+            width: 56px;
+            font-weight: bold;
+        }
+        
+        .my-anchor span:nth-child(2) {
+            color: #666;
+        }
+        
+        .my-anchor span:nth-child(2) b {
+            color: #333;
+            font-weight: 900;
+        }
+        
+        .my-anchor span:nth-child(3) {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #666;
+            border-top: transparent;
+            border-left: transparent;
+            transform: rotate(-45deg) scale(0.5);
+        }
+        
+        .recommend {
+            width: 95%;
+            min-height: 100vh;
+            border-radius: 4px;
+            margin: 0 auto;
+            margin-top: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            min-width: 310.39px;
+            flex-wrap: wrap;
+        }
+        
+        .tv-icon {
+            color: #fb7299;
+            width: 100%;
+            text-align: left;
+            height: 20px;
+            line-height: 20px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            font-family: "iconfont" !important;
+            font-size: 20px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            vertical-align: middle;
+            position: relative;
+            top: 10px;
+        }
+        
+        .recommend span {
+            width: 47.5%;
+            margin-top: 10px;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+        
+        .live-photo {
+            width: 100%;
+        }
+        
+        .live-photo img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+        
+        .live-introduce {
+            height: 40px;
+            width: 100%;
+        }
+        
+        .live-introduce p {
+            text-align: left;
+            font-size: 12px;
+        }
+        
+        .live-introduce p:nth-child(2) {
+            color: #999;
+            box-sizing: border-box;
+            padding-left: 15px;
+        }
+        
+        .live-introduce p:nth-child(2)::after {
+            content: '\e61a';
+            font-family: "iconfont" !important;
+            font-size: 16px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            vertical-align: middle;
+            float: right;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        
+        .live-introduce p:nth-child(1) {
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        
+        .croll-box::-webkit-scrollbar {
+            width: 0;
+        }
