@@ -1,8 +1,11 @@
-        .space {
+        #space {
             width: 100%;
-            background-color: #333;
+            background-color: rgb(245 245 245);
             height: 20px;
-            opacity: 0;
+            color: #666;
+            font-family: Bodoni MT;
+            box-sizing: border-box;
+            padding-left: 30px;
         }
         /* 头部样式表开始 */
         
@@ -130,7 +133,6 @@
         /* 轮播图 */
         
         .carousel {
-            width: 95%;
             border-radius: 4px;
             margin: 0 auto;
             margin-top: 10px;
@@ -138,6 +140,7 @@
             overflow: hidden;
             min-width: 310.39px;
             white-space: nowrap;
+            width: 95%;
         }
         
         .carousel a {
