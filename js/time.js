@@ -10,7 +10,7 @@ function startTime() {
     se = checktime(se);
     document.getElementById('space').innerHTML =
         '   ' +
-        y + '/' + m + '/' + d + '  ' + ho + ':' + mi + ':' + se;
+        y + '/' + m + '/' + d + ' ' + ho + ':' + mi + ':' + se;
     setTimeout(function() {
         startTime();
     }, 500);
