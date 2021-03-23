@@ -1,8 +1,8 @@
 function startTime() {
     var today = new Date();
     var y = today.getFullYear();
-    var m = today.getMonth();
-    var d = today.getDay();
+    var m = today.getMonth() + 1;
+    var d = today.getDate();
     var ho = today.getHours();
     var mi = today.getMinutes();
     var se = today.getSeconds();
@@ -10,7 +10,7 @@ function startTime() {
     se = checktime(se);
     document.getElementById('space').innerHTML =
         '   ' +
-        y + '/' + m + '/' + d + "<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>" + ho + ':' + mi + ':' + se;
+        y + '/' + m + '/' + d + '  ' + ho + ':' + mi + ':' + se;
     setTimeout(function() {
         startTime();
     }, 500);
