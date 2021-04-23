@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="chuhao" unicode="&#58901;" d="M0 896h1024v-1024H0zM298.666667 330.666667a42.666667 42.666667 0 1 0 0 85.333333h426.666666a42.666667 42.666667 0 1 0 0-85.333333H298.666667zM512 490.666667a64 64 0 1 0 0 128 64 64 0 0 0 0-128z m0-362.666667a64 64 0 1 0 0 128 64 64 0 0 0 0-128z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="chenghao" unicode="&#58883;" d="M254.8 164.8l222.8 223.4L254.8 611l36.1 35.4 222.7-222.8L731.9 642l36.7-36.1-219-217.7 222.8-222.8-35.4-36-223.4 222.7-223.4-223.3-35.4 36z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

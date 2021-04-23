@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7928446",
+      "name": "除号",
+      "font_class": "chuhao",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "13871676",
+      "name": "乘号",
+      "font_class": "chenghao",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

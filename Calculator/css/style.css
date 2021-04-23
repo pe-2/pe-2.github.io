@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: rgb(230 230 230);
+}
+
+.main {
+    width: 540px;
+    height: 349px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.screen {
+    height: 30%;
+    width: 99%;
+    margin: 0 auto;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 5px;
+    /* background-color: cyan; */
+}
+
+.button_box {
+    width: 99%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, -3px -3px 7px #ffffff73;
+    border-radius: 20px;
+}
+
+.button {
+    width: 25%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+    /* border: 0.5px solid rgb(200 200 200); */
+    font-size: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(94, 104, 121, 0.288), 2px 2px 5px rgba(94, 104, 121, 0.288);
+    /* box-shadow: -3px -3px 7px #ffffff73, -3px -3px 7px #ffffff73; */
+    border-radius: 20px;
+}
+
+.before {
+    font-size: 20px;
+    text-align: right;
+    height: 50%;
+    line-height: 40px;
+    color: #333;
+    overflow: auto;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.now {
+    font-size: 28px;
+    text-align: right;
+    height: 50%;
+    overflow: auto;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.before::-webkit-scrollbar,
+.now::-webkit-scrollbar {
+    width: 0;
+}
+
+
+/* @font-face {
+  font-family: 'iconfont';
+  src: url('../font/a/iconfont.eot');
+  src: url('../font/a/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/a/iconfont.woff2') format('woff2'),
+      url('../font/a/iconfont.woff') format('woff'),
+      url('../font/a/iconfont.ttf') format('truetype'),
+      url('../font/a/iconfont.svg#iconfont') format('svg');
+} */
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/a/iconfont.eot');
+    src: url('../font/a/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/a/iconfont.woff2') format('woff2'), url('../font/a/iconfont.woff') format('woff'), url('../font/a/iconfont.ttf') format('truetype'), url('../font/a/iconfont.svg#iconfont') format('svg');
+}
+
+
+/* // function tranRPN(str) {
+//     console.log(str.length);
+//     var numStack = [],
+//         operStack = [],
+//         temp = 0,
+//         small = 0,
+//         ten = 0.1;
+//     for (var i = 0; i < str.length; i++) {
+//         var elem = Number(str[i]);
+//         if (elem.toString() != "NaN") {
+//             temp *= 10;
+//             temp += elem;
+//         } else if (str[i] === '.') {
+//             for (var j = i + 1; j < str.length && Number(str[j]).toString() != "NaN"; j++) {
+//                 elem = Number(str[j]);
+//                 small += elem * ten;
+//                 ten /= 10;
+//             }
+//             i = j--;
+//         } else {
+//             if (str[i] === '(') {
+//                 operStack.push(str[i]);
+//                 console.log(str[i]);
+//             } else if (str[i] === ')') {
+//                 while (operStack[operStack.length - 1] != '(' && operStack.length) {
+//                     numStack.push(operStack.pop());
+//                 }
+//             } else {
+//                 var top = operStack.length - 1;
+//                 if (str[i] === '+') {
+//                     if (operStack[top] === '*' || operStack[top] === '/' || operStack[top] === '-' || operStack[top] === '+') {
+//                         while (operStack.length && operStack[top] === '*' || operStack[top] === '/' || operStack[top] === '-' || operStack[top] === '+') {
+//                             numStack.push(operStack.pop());
+//                             top--;
+//                         }
+//                     } else {
+//                         operStack.push(str[i]);
+//                         console.log(str[i]);
+//                     }
+//                 } else
+//                 if (str[i] === '-') {
+//                     if (operStack[top] === '*' || operStack[top] === '/' || operStack[top] === '-' || operStack[top] === '+') {
+//                         while (operStack.length && operStack[top] === '*' || operStack[top] === '/' || operStack[top] === '-' || operStack[top] === '+') {
+//                             numStack.push(operStack.pop());
+//                             top--;
+//                         }
+//                     } else {
+//                         operStack.push(str[i]);
+//                         console.log(str[i]);
+//                     }
+//                 } else if (str[i] === '*') {
+//                     if (operStack[top] === '*' || operStack[top] === '/') {
+//                         while (operStack.length && operStack[top] === '*' || operStack[top] === '/') {
+//                             numStack.push(operStack.pop());
+//                             top--;
+//                         }
+//                     } else {
+//                         operStack.push(str[i]);
+//                         console.log(str[i]);
+//                     }
+//                 } else if (str[i] === '/') {
+//                     if (operStack[top] === '*' || operStack[top] === '/') {
+//                         while (operStack.length && operStack[top] === '*' || operStack[top] === '/') {
+//                             numStack.push(operStack.pop());
+//                             top--;
+//                         }
+//                     } else {
+//                         operStack.push(str[i]);
+//                         console.log(str[i]);
+//                     }
+//                 }
+//             }
+//             temp += small;
+//             console.log(temp);
+//             numStack.push(temp);
+//             temp = 0;
+//             small = 0;
+//         }
+//     }
+//     temp += small;
+//     console.log(temp);
+//     numStack.push(temp);
+//     temp = 0;
+//     small = 0;
+//     var top = operStack.length - 1;
+//     while (top >= 0) {
+//         numStack.push(operStack.pop());
+//     }
+//     return numStack;
+// } */
