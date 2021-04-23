@@ -20,8 +20,10 @@ body {
 }
 
 .main {
-    width: 540px;
-    height: 349px;
+    width: 100vw;
+    height: 40vh;
+    max-width: 540px;
+    min-height: 349px;
     background-color: white;
     box-sizing: border-box;
     padding: 15px;
