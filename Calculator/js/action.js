@@ -52,6 +52,16 @@ for (var i = 0; i < button.length; i++) {
             // this.style.color = "black";
             this.style.boxShadow = "2px 2px 5px rgba(94, 104, 121, 0.288), 2px 2px 5px rgba(94, 104, 121, 0.288)";
         }
+        button[n].ontouchstart = function() {
+            // this.style.backgroundColor = "aliceblue";
+            // this.style.color = "cyan";
+            this.style.boxShadow = "-3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288)";
+        }
+        button[n].ontouchend = function() {
+            // this.style.backgroundColor = "#fff";
+            // this.style.color = "black";
+            this.style.boxShadow = "2px 2px 5px rgba(94, 104, 121, 0.288), 2px 2px 5px rgba(94, 104, 121, 0.288)";
+        }
     }(i))
 }
 
