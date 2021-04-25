@@ -95,7 +95,14 @@ function evalRPN(tokens) {
                 arr[arr.length - 2] = arr[arr.length - 2] + arr[arr.length - 1];
                 arr.pop();
             } else if (tokens[i] === "-") {
-                arr[arr.length - 2] = arr[arr.length - 2] - arr[arr.length - 1];
+                if (arr[arr.length - 2] % 1 && arr[arr.length - 1] % 1) {
+
+                    arr[arr.length - 2] = parseFloat(arr[arr.length - 2] - arr[arr.length - 1]).toFixed(1);
+
+                } else {
+                    arr[arr.length - 2] = arr[arr.length - 2] - arr[arr.length - 1];
+
+                }
                 arr.pop();
             } else if (tokens[i] === "*") {
                 arr[arr.length - 2] = arr[arr.length - 2] * arr[arr.length - 1];
