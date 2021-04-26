@@ -98,18 +98,37 @@ body {
 
 /* @font-face {
   font-family: 'iconfont';
-  src: url('../font/a/iconfont.eot');
-  src: url('../font/a/iconfont.eot?#iefix') format('embedded-opentype'),
-      url('../font/a/iconfont.woff2') format('woff2'),
-      url('../font/a/iconfont.woff') format('woff'),
-      url('../font/a/iconfont.ttf') format('truetype'),
-      url('../font/a/iconfont.svg#iconfont') format('svg');
+  src: url('../font/delete/iconfont.eot');
+  src: url('../font/delete/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/delete/iconfont.woff2') format('woff2'),
+      url('../font/delete/iconfont.woff') format('woff'),
+      url('../font/delete/iconfont.ttf') format('truetype'),
+      url('../font/delete/iconfont.svg#iconfont') format('svg');
 } */
 
 @font-face {
     font-family: 'iconfont';
     src: url('../font/a/iconfont.eot');
     src: url('../font/a/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/a/iconfont.woff2') format('woff2'), url('../font/a/iconfont.woff') format('woff'), url('../font/a/iconfont.ttf') format('truetype'), url('../font/a/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/delete/iconfont.eot');
+    src: url('../font/delete/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/delete/iconfont.woff2') format('woff2'), url('../font/delete/iconfont.woff') format('woff'), url('../font/delete/iconfont.ttf') format('truetype'), url('../font/delete/iconfont.svg#iconfont') format('svg');
+}
+
+.button-delete {
+    width: 100px;
+    height: 35px;
+    box-shadow: 2px 2px 5px rgba(94, 104, 121, 0.288), 2px 2px 5px rgba(94, 104, 121, 0.288);
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 

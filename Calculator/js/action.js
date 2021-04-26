@@ -64,14 +64,21 @@ for (var i = 0; i < button.length; i++) {
         }
     }(i))
 }
+var DeleteButton = document.getElementsByClassName('button-delete')[0];
 
-// function isNum(s) {
-//     if (s < '0' || s > '9') {
-//         return true;
-//     } else {
-//         return false;
-//     }
-// }
+DeleteButton.onclick = function() {
+        if (input.innerHTML) {
+
+            input.innerHTML = input.innerHTML.substring(0, input.innerHTML.length - 1);
+        }
+    }
+    // function isNum(s) {
+    //     if (s < '0' || s > '9') {
+    //         return true;
+    //     } else {
+    //         return false;
+    //     }
+    // }
 
 // function calculate(st) {
 //     var answer = 0,
