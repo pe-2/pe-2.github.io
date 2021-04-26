@@ -1,0 +1,15 @@
+/* @font-face {
+  font-family: 'iconfont';
+  src: url('../font/setting/iconfont.eot');
+  src: url('../font/setting/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/setting/iconfont.woff2') format('woff2'),
+      url('../font/setting/iconfont.woff') format('woff'),
+      url('../font/setting/iconfont.ttf') format('truetype'),
+      url('../font/setting/iconfont.svg#iconfont') format('svg');
+} */
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/setting/iconfont.eot');
+    src: url('../font/setting/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/setting/iconfont.woff2') format('woff2'), url('../font/setting/iconfont.woff') format('woff'), url('../font/setting/iconfont.ttf') format('truetype'), url('../font/setting/iconfont.svg#iconfont') format('svg');
+}

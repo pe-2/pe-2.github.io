@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20771442",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e86c",
+      "unicode_decimal": 59500
+    }
+  ]
+}

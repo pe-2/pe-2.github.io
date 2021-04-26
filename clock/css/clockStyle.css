@@ -1,0 +1,74 @@
+    html,
+    body {
+        display: grid;
+        place-items: center;
+    }
+    
+    body {
+        height: 100vh;
+    }
+    
+    .real-clock {
+        width: 250px;
+        height: 250px;
+        border: 4px dotted black;
+        margin: 0 auto;
+        border-radius: 50%;
+        position: relative;
+        transform: translate(0, 30%);
+    }
+    
+    .realClock {
+        width: 100vw;
+        height: 85vh;
+        float: left;
+        position: relative;
+    }
+    
+    .spot {
+        width: 20px;
+        height: 20px;
+        z-index: 2;
+        background-color: black;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+    }
+    
+    .handsHour {
+        width: 20%;
+        height: 4px;
+        background-color: red;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform-origin: left;
+        margin-top: -2px;
+        transform: rotate(0deg);
+    }
+    
+    .handsMinute {
+        width: 28%;
+        height: 4px;
+        background-color: cyan;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform-origin: left;
+        transform: rotate(45deg);
+        margin-top: -2px;
+    }
+    
+    .handsSeconds {
+        width: 40%;
+        height: 4px;
+        background-color: black;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: rotate(99deg);
+        transform-origin: left;
+        margin-top: -2px;
+    }

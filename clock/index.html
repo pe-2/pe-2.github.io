@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钟表、秒表、倒计时</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/link.css">
+    <link rel="stylesheet" href="css/clockStyle.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="setting"><span class="control"><a class="set-item">编辑</a></span><span class="control"><a class="set-item">&#xe86c;</a></span></div>
+        <div class="nav">
+            <span class="nav-items"><a>时钟</a></span><span class="nav-items"><a class="nav-item">秒表</a></span><span class="nav-items"><a>计时</a></span>
+        </div>
+        <div class="allClock">
+            <div class="everyClock">
+                <div class="realClock">
+                    <div class="real-clock">
+                        <div class="spot"></div>
+                        <div class="handsHour"></div>
+                        <div class="handsMinute"></div>
+                        <div class="handsSeconds"></div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="clock"><span class="clockTime"><span class="time">00</span>.<span class="time">00</span><span class="colorShang">.<span class="time">00</span></span>
+                        </span>
+                    </div>
+                    <div class="countTime">
+
+                    </div>
+                    <div class="buttonBox">
+                        <div class="begin"><span>开始</span></div>
+                        <div class="working"><span class="countTimes resetButton">计次</span><span class="pauseButton continueButton">暂停</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/action.js"></script>
+    <script src="js/clockAction.js"></script>
+</body>
+
+</html>

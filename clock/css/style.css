@@ -1,0 +1,171 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .main {
+            width: 100vw;
+            height: 100vh;
+            background-color: #fff;
+            min-width: 340px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .setting {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 14px;
+            color: #e21e1e;
+        }
+        
+        .nav {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            box-sizing: border-box;
+            padding-left: 30px;
+            padding-right: 30px;
+            line-height: 40px;
+        }
+        
+        .nav-items {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .nav-item {
+            color: #cf1c1c;
+            border-bottom: 1px solid #e21e1e;
+            padding-bottom: 6px;
+        }
+        
+        .timer {
+            width: 95vw;
+            height: 85vh;
+            position: relative;
+            float: left;
+        }
+        
+        .clock {
+            width: 200px;
+            height: 200px;
+            border: 4px dotted black;
+            margin: 0 auto;
+            margin-top: 50px;
+            border-radius: 50%;
+            margin-bottom: 40px;
+            display: grid;
+            place-items: center;
+            font-size: 42px;
+            letter-spacing: 1px;
+        }
+        
+        .countTime {
+            width: 100%;
+            height: 160px;
+            overflow: auto;
+        }
+        
+        .countTime::-webkit-scrollbar {
+            width: 0;
+        }
+        
+        .record {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .record span {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .record span:first-child {
+            width: 1ch;
+            color: #ff4a4a;
+        }
+        
+        .record span:nth-child(2) {
+            width: 4ch;
+        }
+        
+        .record span:last-child {
+            width: 4.5ch;
+        }
+        
+        .buttonBox {
+            width: 100%;
+            height: 40px;
+            display: grid;
+            place-items: center;
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .begin {
+            width: 65%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #ff4a4a;
+            display: grid;
+            place-items: center;
+        }
+        
+        .colorShang {
+            color: #ff4a4a;
+        }
+        
+        .working {
+            width: 70%;
+            height: 100%;
+            line-height: 40px;
+            display: none;
+            justify-content: space-between;
+        }
+        
+        .pauseButton {
+            background-color: #ff4a4a;
+            color: white;
+            display: grid;
+            place-items: center;
+            width: 45%;
+            border-radius: 5px;
+        }
+        
+        .countTimes {
+            width: 45%;
+            display: grid;
+            background-color: #ddbebe;
+            place-items: center;
+            border-radius: 5px;
+        }
+        
+        .allClock {
+            width: 100vw;
+            height: 85vh;
+            overflow: auto;
+        }
+        
+        .everyClock {
+            width: 300vw;
+            display: flex;
+        }
