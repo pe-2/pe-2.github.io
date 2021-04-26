@@ -22,7 +22,7 @@ setInterval(function() {
     if (sseconds >= 60) {
         sseconds = 0;
         mminutes++;
-        minDeg = minutes * 6 - 90;
+        minDeg = mminutes * 6 - 90;
         if (mminutes >= 60) {
             mminutes = 0;
             hhours++;
