@@ -50,6 +50,7 @@ function tranRPN(str) {
                     numStack.push(elem);
                     top--;
                 }
+                opStack.pop();
             } else if (str[i] == '+' || str[i] == '-') {
                 top = opStack.length - 1;
                 while (opStack.length && opStack[top] != '(') {

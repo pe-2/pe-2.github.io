@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.countDown {
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.countDown-timer {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(230, 230, 230);
+    color: #999;
+    display: flex;
+}
+
+.time-1,
+.time-2,
+.time-3 {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    font-size: 37px;
+}
+
+.button-box-count {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 40px;
+}
+
+.button-box-count>div {
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+
+.button-box-count>div:nth-child(2) {
+    background-color: cyan;
+}
+
+.countDown-timer:first-child {
+    opacity: 0.5;
+}
+
+.countDown-timer:nth-child(3) {
+    opacity: 0.5;
+}
