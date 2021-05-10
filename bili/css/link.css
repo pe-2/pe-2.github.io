@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/jina/iconfont.eot');
+    src: url('../font/jina/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/jina/iconfont.ttf') format('truetype'), url('../font/jina/iconfont.svg#iconfont') format('svg');
+}
+
+@keyframes carousel {
+    to {
+        transform: translate(-100%, 0);
+    }
+}
