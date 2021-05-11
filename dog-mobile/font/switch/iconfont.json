@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1186901",
+      "name": "太阳",
+      "font_class": "taiyang",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1280436",
+      "name": "坐标",
+      "font_class": "zuobiao",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "8239900",
+      "name": "切换",
+      "font_class": "qiehuan",
+      "unicode": "eb8c",
+      "unicode_decimal": 60300
+    }
+  ]
+}
