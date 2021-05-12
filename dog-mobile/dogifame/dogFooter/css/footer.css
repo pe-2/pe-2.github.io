@@ -1,0 +1,122 @@
+.footer {
+    width: 100vw;
+    height: 60px;
+    /* border-top: 0.1px solid dimgray; */
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    place-items: center;
+}
+
+.shoes {
+    height: 60px;
+}
+
+.footer-jump-item {
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
+
+.main-jump {
+    background-image: url(../image/WechatIMG16.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    transform: translate(0, 2px);
+}
+
+.service {
+    color: #FFC300;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.active {
+    color: #FFC300;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    transform: translate(0, 1px);
+}
+
+.mine {
+    font-weight: bold;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    color: #FFC300;
+    transform: translate(0, -1px);
+}
+
+.more {
+    font-size: 45px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+}
+
+.service::before {
+    content: '省心';
+    font-size: 12px;
+    position: absolute;
+    top: 0.1em;
+    right: 0;
+    display: block;
+    color: white;
+    background-color: red;
+    border-radius: 0.5em;
+    width: 2.2em;
+}
+
+.active::before {
+    content: '\e74a';
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0.2em;
+    right: 0.4em;
+    color: red;
+}
+
+.service::after {
+    content: '服务';
+    font-size: 12px;
+    position: absolute;
+    bottom: -2px;
+}
+
+.active::after {
+    content: '消息';
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(0, -2px);
+}
+
+.mine::after {
+    content: '我的';
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(0, 0px);
+}

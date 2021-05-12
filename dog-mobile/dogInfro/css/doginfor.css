@@ -1,0 +1,241 @@
+#head {
+    display: flex;
+    height: 40px;
+    width: 100vw;
+    line-height: 40px;
+    /* border-bottom: 1px solid rgb(168, 168, 168); */
+}
+
+#head span {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+}
+
+#head #headcenter {
+    font-weight: bold;
+}
+
+#head #headleft {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#head #headright {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#content #self {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+#content #self img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-top: 15px;
+}
+
+#content #self #inself {
+    margin-top: 17px;
+}
+
+#content #infor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#infor #self {
+    width: 45vw;
+}
+
+#infor #city {
+    width: 45vw;
+    line-height: 80px;
+    text-align: right;
+}
+
+#others {
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid rgb(168, 168, 168); */
+}
+
+#leash {
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 80px;
+    width: 98vw;
+    margin-left: 1vw;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    /* box-shadow: 0 0 1px 1px rgb(179, 179, 179); */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 80px;
+}
+
+#leash .dog-image {
+    width: 60px;
+    height: 60px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    margin-top: 10px;
+    background-image: url(../img/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #32f83e;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    line-height: 70px;
+}
+
+#content #leash div span {
+    text-align: center;
+    background-color: #ffc300;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 30%;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+}
+
+#content #leash div span:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgba(2, 172, 2, 0.9);
+}
+
+#content #detail div {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2%;
+    /* border-bottom: 1px solid rgb(150, 150, 150); */
+    height: 30px;
+}
+
+#content #detail div :nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    /* color: rgb(45, 45, 45); */
+    padding-left: 10px;
+}
+
+#content #detail div :nth-child(2) {
+    float: right;
+    padding-right: 10px;
+    /* color: rgb(71, 71, 71); */
+}
+
+.other-text-wrapper {
+    font-size: 13px;
+}
+
+.other-icon-wrapper {
+    font-size: 30px;
+    color: #ffc300;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    display: grid;
+    place-items: center;
+}
+
+.cha {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.banb {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.top {
+    height: 40px;
+}
+
+#detail>div>span:nth-child(2) {
+    color: #ffc300;
+}
+
+.dog-class {
+    font-size: 13px;
+    width: 4em;
+    height: 1.5em;
+    display: inline-block;
+    border-radius: 0.75em;
+    background-color: rgb(230 230 230);
+    text-align: center;
+    line-height: 1.5em;
+    color: #666;
+}
+
+.dog-name {
+    color: #ffc300;
+}
+
+#sex {
+    height: 1.4em;
+    width: 2em;
+    display: inline-block;
+    border-radius: 0.7em;
+    background-color: rgb(230 230 230);
+    text-align: center;
+    line-height: 1.4em;
+    color: pink;
+    font-size: 14px;
+}
+
+.age {
+    width: 4em;
+    height: 1em;
+    display: inline-block;
+    border-radius: 0.5em;
+    background-color: rgb(230 230 230);
+    text-align: center;
+    line-height: 1em;
+    color: #666;
+    font-size: 13px;
+}
+
+#infor,
+#others,
+#leash,
+#detail {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.switch {
+    font-size: 14px;
+    color: #666;
+}
+
+#self {
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+#infor {
+    box-sizing: border-box;
+    padding-right: 15px;
+}

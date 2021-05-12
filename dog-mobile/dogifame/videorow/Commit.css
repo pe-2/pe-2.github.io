@@ -1,0 +1,51 @@
+.VideoRowBox {
+    height: 90px;
+}
+
+.VideoPictureBox {
+    float: left;
+    width: 35%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: rgb(230 230 230);
+    transform: translate(0, 5px);
+}
+
+.VideoInfoBox {
+    float: right;
+    width: 63%;
+    height: 99%;
+}
+
+.VideoTitleBox {
+    height: 50%;
+}
+
+.VideoAuthorBox {
+    height: 25%;
+}
+
+.VideoViewBox {
+    height: 25%;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.Words1 {
+    font-size: 15px;
+}
+
+.MoreInfo {
+    float: right;
+    font-size: 12px;
+    transform: translate(0, 3px);
+}
+
+.Words2 {
+    font-size: 13px;
+    color: #999;
+}

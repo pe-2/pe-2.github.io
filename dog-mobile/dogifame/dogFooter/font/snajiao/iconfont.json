@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7171462",
+      "name": "三角形",
+      "font_class": "right",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    }
+  ]
+}

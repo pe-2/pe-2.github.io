@@ -1,0 +1,193 @@
+.main-vedio-wrapper {
+    height: 200px;
+    border-bottom: 0.1px solid rgb(230 230 230);
+    width: 100vw;
+}
+
+.vedio-nav {
+    height: 35px;
+    border-bottom: 0.1px solid rgb(230 230 230);
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    place-items: center;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+}
+
+.bottom-line {
+    width: 3em;
+    background-color: #ffc300;
+    height: 1.5px;
+    position: absolute;
+    left: 9%;
+    bottom: 0;
+}
+
+.barrage {
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    border: 0.01px solid rgb(200, 200, 200);
+    display: flex;
+}
+
+.comments-icon {
+    flex: auto;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    color: #ffc300;
+}
+
+.comments-send {
+    outline: none;
+    border: none;
+    height: 25px;
+    display: inline-block;
+    width: 90px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(230 230 230);
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.vedio-recom {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.vedio-comments {
+    min-height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.author-wrapper {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vedio-title {
+    height: 25px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.vedio-information-of-look {
+    height: 15px;
+    font-size: 12px;
+    color: #999;
+}
+
+.give-good-or-shit {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+}
+
+.author-avator {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: rgb(230 230 230);
+    color: #333;
+}
+
+.author-name {
+    font-size: 14px;
+    color: #ffc300;
+}
+
+.author-fan {
+    font-size: 12px;
+    color: #999;
+}
+
+.author-site {
+    font-size: 13px;
+}
+
+.good-luck {
+    background-color: #ffc300;
+    color: white;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+.vedio-class {
+    font-size: 12px;
+    width: 3em;
+    height: 1.4em;
+    border-radius: 0.7em;
+    background-color: rgb(230 230 230);
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffc300;
+    margin-top: 2px;
+}
+
+.good-num,
+.shit-num,
+.collect-num,
+.else-num,
+.more {
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+}
+
+.good,
+.shit,
+.shoucang,
+.giveElse,
+.mord-more {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.vedio-one-line-wrapper {
+    height: 100px;
+    margin-top: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    padding-bottom: 3px;
+}
+
+.vedio-else-wrapper {
+    position: relative;
+    width: 100vw;
+    overflow: auto;
+}
+
+.vedio-one-line-wrapper>iframe {
+    width: 100%;
+    height: 100%;
+}

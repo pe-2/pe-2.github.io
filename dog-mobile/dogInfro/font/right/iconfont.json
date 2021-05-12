@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1323500",
+      "name": "对号",
+      "font_class": "duihao1",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    }
+  ]
+}

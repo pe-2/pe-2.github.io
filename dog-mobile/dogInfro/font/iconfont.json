@@ -1,0 +1,135 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "167222",
+      "name": "朋友圈",
+      "font_class": "pengyouquan",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "386337",
+      "name": "叉",
+      "font_class": "cha",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "554516",
+      "name": "温度计",
+      "font_class": "iconset0480",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "632981",
+      "name": "对勾",
+      "font_class": "duigou",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "790549",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "2380615",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5191343",
+      "name": "狗项链",
+      "font_class": "gouxianglian_",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5205032",
+      "name": "狗屋",
+      "font_class": "gouwu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "7084896",
+      "name": "性别男",
+      "font_class": "xingbienan",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "7140573",
+      "name": "性别女",
+      "font_class": "xingbienv",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "7335535",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "eb30",
+      "unicode_decimal": 60208
+    },
+    {
+      "icon_id": "8353912",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "9512617",
+      "name": "地点",
+      "font_class": "position",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10905636",
+      "name": "异常",
+      "font_class": "yichang",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "14995572",
+      "name": "狗粮",
+      "font_class": "gouliang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "18445739",
+      "name": "注意",
+      "font_class": "zhuyi",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "18738950",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "20266215",
+      "name": "体重",
+      "font_class": "tizhong",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    }
+  ]
+}
