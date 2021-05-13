@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18697561",
+      "name": "菜单",
+      "font_class": "menu-two",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    }
+  ]
+}

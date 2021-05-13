@@ -53,7 +53,6 @@
             list-style: none;
             text-decoration: none;
             font-family: "iconfont" !important;
-            font-style: normal;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
@@ -71,12 +70,24 @@
             src: url('font/dog-vedioicon/iconfont.ttf') format('truetype');
         }
         
+        @font-face {
+            font-family: 'iconfont';
+            src: url('font/tv/iconfont.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'iconfont';
+            src: url('font/caidan/iconfont.ttf') format('truetype');
+        }
+        
         .yellow {
             color: #ffc300;
         }
     </style>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/caidan /iconfont.css">
+    <link rel="stylesheet" href="../dogifame/videorow/Commit.css">
 </head>
 
 <body>
@@ -85,7 +96,7 @@
             <a href="" class="back iconfont">&#xe618;</a>
         </div>
         <div class="title">宠物视频</div>
-        <div class="share iconfont">&#xe6fe;</div>
+        <div class="share iconfont">&#xe96a;</div>
     </header>
     <div style="height: 40px;"></div>
     <div class="main-vedio-wrapper"></div>
@@ -95,7 +106,6 @@
         <div class="barrage"><input type="search" name="" id="" placeholder="点我发弹幕" class="comments-send">
             <span class="comments-icon iconfont">&#xe64a;</span>
         </div>
-        <div class="bottom-line"></div>
     </div>
     <div class="vedio-else-wrapper">
         <div class="vedio-recom">
@@ -114,8 +124,8 @@
                 <div class="vedio-title">
                     <div class="vedio-class">活动</div>狗狗名场面
                     <div class="vedio-information-of-look">
-                        <span class="vedio-count iconfont">&#xe627;&nbsp;877.4万</span>
-                        <span class="verdio-danmu iconfont">&#xe616;&nbsp;1.5万</span> &nbsp;&nbsp;&nbsp;
+                        <span class="vedio-count iconfont shitshit" id="badbad">&#xe627;&nbsp;877.4万</span>
+                        <span class="verdio-danmu iconfont shitshit" id="badbad">&#xe616;&nbsp;1.5万</span> &nbsp;&nbsp;&nbsp;
                         <span class="vedio-data">5-12</span>
                     </div>
                 </div>
@@ -138,20 +148,254 @@
                 </div>
             </div>
             <div class="else-recomme">
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
-                <div class="vedio-one-line-wrapper"><iframe src="../dogifame/videorow/commit.html" frameborder="0" scrolling="no"></iframe></div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vedio-one-line-wrapper">
+                    <div class="VideoRowBox">
+                        <div class="VideoPictureBox">
+
+                        </div>
+                        <div class="VideoInfoBox">
+                            <div class="VideoTitleBox Words1">
+                                看了那么多狗狗视频这是我见过最...
+                            </div>
+                            <div class="VideoAuthorBox Words2">
+                                <i class="iconfont icon">&#xe635;</i> 狗狗的保护神
+                            </div>
+                            <div class="VideoViewBox Words2">
+                                <i class="iconfont icon">&#xe627;</i> 21.2万&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="iconfont icon">&#xe616;</i> 6745
+                                <i class="iconfont MoreInfo">&#xe693;</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="vedio-comments">
-
+            <div class="comments-select">
+                <span class="comments-time-or-hot">热门评论</span>
+                <span class="comments-select"><i class="iconfont icon-menu-two caidan"></i> &nbsp;按热度</span>
+            </div>
+            <div class="one-comments-wrapper">
+                <div class="comments-author">
+                    <div class="commets-author-avator"></div>
+                    <div class="author-name-and-else">
+                        <p>
+                            <span class="author-name">意瑞迪森皮特博</span>
+                            <span class="author-grade">lv5</span>
+                        </p>
+                        <p class="comments-data">5-13</p>
+                    </div>
+                </div>
+                <div class="comments-wrapper">
+                    小羊一定是想爸了所以去垃圾桶里找你。
+                </div>
+                <div class="comments-good-or-bad">
+                    <span class="iconfont comments-good " id="asdasdads">&#xe502; 8380</span>
+                    <span class="iconfont comments-bad  ">&#xe603;</span>
+                    <span class="iconfont commens-share  ">&#xe6fe;</span>
+                    <span class="iconfont comments-say  ">&#xe60b;</span>
+                    <div class="iconfont comments-good-or-bad-else">&#xe693;</div>
+                </div>
+                <div class="comments-back">
+                    <div class="comments-one-back">
+                        <span class="back-author">夜空中的鑫anniez：&nbsp;</span>
+                        <span class="backcontent">山上的笋都被你夺完了</span>
+                    </div>
+                    <div class="comments-one-back">
+                        <span class="back-author">牧羊小队长<span class="up">au</span> ：</span>
+                        <span class="backcontent">好家伙这么多赞！！！</span>
+                    </div>
+                    <div class="comments-one-back">
+                        <span class="back-author">angel-crown <span style="color: black;">回复</span>@牧羊小队长：</span>
+                        <span class="backcontent">叫它过来，坐在它打翻的东西前，面对面，让它吃</span>
+                    </div>
+                    <div class="comments-shenglv">
+                        <span class="back-else-person">犬主等人&nbsp;</span><span class="lv">共39条回复 <i class="iconfont tojump">&#xe64f;</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="one-comments-wrapper">
+                <div class="comments-author">
+                    <div class="commets-author-avator"></div>
+                    <div class="author-name-and-else">
+                        <p>
+                            <span class="author-name">砚山秋</span>
+                            <span class="author-grade">lv5</span>
+                        </p>
+                        <p class="comments-data">5-4</p>
+                    </div>
+                </div>
+                <div class="comments-wrapper">
+                    小羊快过来，姐姐才不会骂你，我只会心疼小羊
+                </div>
+                <div class="comments-good-or-bad">
+                    <span class="iconfont comments-good ">&#xe502; 4095</span>
+                    <span class="iconfont comments-bad  ">&#xe603;</span>
+                    <span class="iconfont commens-share  ">&#xe6fe;</span>
+                    <span class="iconfont comments-say  ">&#xe60b;</span>
+                    <div class="iconfont comments-good-or-bad-else">&#xe693;</div>
+                </div>
+                <div class="comments-back">
+                    <div class="comments-one-back">
+                        <span class="back-author">夜空中的鑫anniez：&nbsp;</span>
+                        <span class="backcontent">山上的笋都被你夺完了</span>
+                    </div>
+                    <div class="comments-one-back">
+                        <span class="back-author">牧羊小队长<span class="up">au</span> ：</span>
+                        <span class="backcontent">好家伙这么多赞！！！</span>
+                    </div>
+                    <div class="comments-one-back">
+                        <span class="back-author">angel-crown <span style="color: black;">回复</span>@牧羊小队长：</span>
+                        <span class="backcontent">叫它过来，坐在它打翻的东西前，面对面，让它吃</span>
+                    </div>
+                    <div class="comments-shenglv">
+                        <span class="back-else-person">犬主等人&nbsp;</span><span class="lv">共39条回复 <i class="iconfont tojump">&#xe64f;</i></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
