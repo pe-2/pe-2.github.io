@@ -20,12 +20,17 @@ header {
 }
 
 .jump {
-    width: 40px;
+    width: 50px;
     height: 100%;
     display: flex;
     justify-content: space-around;
     margin-right: 30px;
     align-items: center;
+}
+
+.back {
+    transform: translate(0, 1px) rotate(90deg);
+    vertical-align: middle;
 }
 
 .search {
@@ -54,11 +59,12 @@ nav {
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
 }
 
 .ad-wrapper {
     width: 100vw;
-    height: 120px;
+    height: 135px;
     /* border-bottom: 0.1px solid; */
     box-sizing: border-box;
     padding-left: 10px;
@@ -205,21 +211,22 @@ nav {
 
 .ad-content-wrapper {
     width: 95%;
-    height: 65%;
+    height: 85px;
     background-color: #fff;
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
     display: grid;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 55px;
 }
 
 .ad-content-2 {
     font-size: 14px;
     color: #999;
     box-sizing: border-box;
-    padding-left: 10px;
 }
 
 .ad-name {
@@ -235,7 +242,7 @@ nav {
 }
 
 .main-jump {
-    background-image: url(../image/WechatIMG16.jpeg);
+    background-image: url(../../image/WechatIMG16.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 42px;
@@ -415,32 +422,22 @@ nav {
 
 .select-all {
     position: relative;
-}
-
-.select-all::after {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 38px;
-    width: 0;
-    border-left: 0.2px solid rgb(200 200 200);
-    top: -50%;
-    right: -100%;
+    border-right: 0.05px solid rgb(200 200 200);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
 }
 
 .select-near {
     position: relative;
-}
-
-.select-near::after {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 38px;
-    width: 0;
-    border-left: 0.2px solid rgb(200 200 200);
-    top: -50%;
-    right: -100%;
+    border-right: 0.05px solid rgb(200 200 200);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
 }
 
 .vedio-wrapper-box {
@@ -538,4 +535,187 @@ display: -webkit-box; */
 .xizao {
     font-size: 35px;
     font-weight: bolder;
+}
+
+.shuqian {
+    width: 2em;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.ad-content-wrapper {
+    position: relative;
+}
+
+.ad-avator {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.dogpicshow {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 1.3em;
+    top: 0.8em;
+    overflow: auto;
+}
+
+.dogpicshow>img {
+    height: 100%;
+}
+
+.ad-two-wrapper-box {
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    font-size: 15px;
+    text-align: center;
+    font-family: '黑体';
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    overflow: hidden;
+}
+
+.ad-two-picture {
+    width: 72px;
+    margin-top: 5px;
+}
+
+.ad-two-intro-wrapper {
+    font-size: 13px;
+    color: #999;
+}
+
+.ad-two-wrapper-item:nth-child(1) {
+    border-right: 0.05px solid rgb(200 200 200);
+    box-sizing: border-box;
+}
+
+.ad-two-wrapper-item:nth-child(2) {
+    border-right: 0.05px solid rgb(200 200 200);
+    box-sizing: border-box;
+}
+
+.ad-two-wrapper-item {
+    width: 100%;
+    height: 100%;
+}
+
+.ad-three-wrapper-box {
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 80px 270px;
+    margin-top: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+}
+
+.ad-three-wrapper-picture {
+    height: 100%;
+    width: 80px;
+    background-image: url(../../imgforall/dog-shop-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ad-three-text-wrapper {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.ad-three-text-head {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ad-three-score-box {
+    font-size: 13px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon-star {
+    color: #ffc300;
+}
+
+.good-site-ad-three {
+    color: #ffc300;
+    width: 3.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+    border: 0.1px solid #ffc300;
+    border-radius: 1px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.icon-dianzan {
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+    color: #ffc300;
+}
+
+#dianzan {
+    fill: currentColor;
+    color: #ffc300;
+}
+
+.site-infro {
+    color: #999;
+    float: right;
+}
+
+.ad-one-shop {
+    height: 50px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    margin-top: 0.1px;
+    margin-bottom: 0.1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.jiage {
+    text-align: center;
+    font-size: 16px;
+    color: #ffc300;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.beforejiage {
+    color: #999;
+    font-size: 11px;
+}
+
+.dog-class-shop {
+    color: #666;
+}
+
+.tuangou {
+    width: 1.4em;
+    position: absolute;
+    top: 0.4em;
+    left: 0.5em;
 }
