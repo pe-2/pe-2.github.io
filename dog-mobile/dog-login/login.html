@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乐宠之家登录页面，给狗狗一个温暖的家</title>
+    <link rel="stylesheet" href="../cssforall/style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../liu-login/css/style.css">
+    <link rel="stylesheet" href="../liu-login/css/logup.css">
+    <link rel="stylesheet" href="../liu-login/css/login.css">
+</head>
+
+<body>
+    <div id="app-mobile border-box">
+        <div class="iconfont back" style="position: absolute;top: 15px;left: 18px;">
+            <div class="jianjiao" style="transform: rotate(45deg); height: 12px; width: 12px; border-width: 2px; border-color: #555;"></div>
+        </div>
+        <h2 class="welcome">欢迎来到乐宠</h2>
+        <div class="loginOrsign">
+            <div class="login yellowBorder">登陆</div>
+            <div class="sign">注册</div>
+        </div>
+        <div class="mainform">
+            <div class="mainfor-login">
+                <div class="liu-up">
+                    <div id="infor">
+                        <form class="signform">
+                            <p><input type="text" placeholder="请输入账号"></p>
+                            <p><input type="password" placeholder="请输入密码"><span id="eye" class="iconfont">&#xe61b;</span></p>
+                            <div id="for">忘记密码</div>
+                        </form>
+                    </div>
+                    <div id="but">
+                        <button>登录</button>
+                    </div>
+                    <div id="other">
+                        <span>手机验证码登录</span>
+                        <span>历史账户</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mainform-sign" style="display: none;">
+                <div class="liu-login">
+                    <div id="infor">
+                        <form>
+                            <p><input type="text" placeholder="请输入账号"></p>
+                            <p><input type="password" placeholder="请输入密码"> <span id="eye" class="iconfont">&#xe61b;</span></p>
+                            <p><input type="text" placeholder="请输入验证码" id="yan"><img src="../liu-login/img/yan.png"></p>
+                        </form>
+                    </div>
+                    <div id="but">
+                        <button>注册</button>
+                    </div>
+                    <div id="other">
+                        <span>手机验证码登录</span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

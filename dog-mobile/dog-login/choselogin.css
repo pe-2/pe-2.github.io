@@ -1,0 +1,64 @@
+.backjump {
+    text-align: right;
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/font_5bi72zx60k/iconfont.ttf') format('truetype');
+}
+
+.main-choose {
+    height: 400px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    transform: translate(0, -60%);
+}
+
+.main-choose>div {
+    width: 72%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    /* border: 0.1px solid rgb(220 200 200); */
+    border-radius: 20px;
+    position: relative;
+}
+
+.morec {
+    color: #999;
+}
+
+.main-choose>div>i {
+    vertical-align: middle;
+    position: absolute;
+    left: 1.7em;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+}
+
+.confirm {
+    position: absolute;
+    width: 90vw;
+    height: 1.5em;
+    border-radius: 0.75em;
+    font-size: 12px;
+    bottom: 3em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #999;
+}
+
+.confirm>input {
+    vertical-align: middle;
+    height: 12px;
+}

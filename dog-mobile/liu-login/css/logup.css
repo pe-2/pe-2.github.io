@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.ttf?t=1620995905018') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#infor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#infor input {
+    border-bottom: 2px solid #efefef;
+    width: 100%;
+    font-size: 16px;
+}
+
+#infor form {
+    position: relative;
+}
+
+#infor form #yan {
+    width: 55%;
+    margin-top: -5px;
+}
+
+#infor form img {
+    width: 40%;
+}
+
+#infor input::-webkit-input-placeholder {
+    line-height: 60px;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+#infor #for {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    font-size: 14px;
+    color: #919191;
+    font-weight: bold;
+}
+
+#infor #eye {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #c9c9c9;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    transform: translate(0, 12px);
+}
+
+#but {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#but button {
+    background-color: #f0f0f0;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    height: 40px;
+}
+
+#other {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #919191;
+    font-weight: bold;
+}
+
+#other :nth-child(1) {
+    float: left;
+}
+
+#other :nth-child(2) {
+    float: right;
+}
+
+.liu-up {
+    height: 287px;
+    display: grid;
+    grid-template-rows: 2fr 1.5fr 1fr;
+    align-items: center;
+}
+
+#infor {
+    height: 100%;
+    align-items: center;
+}
+
+.signform {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    align-items: center;
+}

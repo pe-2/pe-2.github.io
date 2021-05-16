@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 550px;
+    min-width: 320px;
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    background: #f2f2f2;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+input,button,option,select{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+.id{
+    height: 160px;
+    width: 375px;
+    /* background-color: rgb(82, 36, 36); */
+}
+.img1{
+    height: 160px;
+    width: 375px;
+}
+.shouhou{
+    display: flex;
+    height: 35px;
+    width: 345px;
+    margin:  8px 15px;
+    /* background-color: #f6f6f6; */
+    background-color: #ffeaa4;
+    border-radius: 6px;
+}
+.s1{
+    flex: 1;
+    text-align: center;
+    line-height: 35px;
+}
+.w1{
+    color:rgb(107, 83, 83);
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.welfare{
+    height: 250px;
+    width: 345px;
+    margin: 15px 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+.w2{
+    width: 168px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.s3{
+    width: 168px;
+    height: 120px;  
+    background-color: #fff;
+    border-radius: 10px;
+}
+.s3{
+    margin: 0 0 10px 0;
+}
+.chaopin{
+    height: 260px;
+    width: 345px;
+    margin: 15px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.head1{
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    line-height: 50px;
+    background-image: linear-gradient(to top,#fff,#ffdb67);
+}
+.w4{
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 15px;
+    color:rgb(107, 83, 83);
+}
+.w5{
+    color:rgb(107, 83, 83);
+    padding-right: 5px;
+}
+.goods{
+    height: 210px;
+    width: 345px;
+    display: flex;
+    background-color:#fff;
+    border-radius: 0 0 10px 10px;
+}
+.s4{
+    flex: 1;
+}
+.shop{
+    width: 345px;
+    margin: 15px 15px;
+    background-color: #f2f2f2;
+}
+.head2{
+    background-color:#f1f6f6;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    border-radius: 10px 10px 0 0;
+}
+#choice{
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+.s5{
+    flex: 1;
+}
+.s7{
+    width: 168px;
+    height: 250px;  
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+}
+

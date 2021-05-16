@@ -120,3 +120,87 @@
     bottom: 0px;
     transform: translate(0, 0px);
 }
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.iconfont {
+    list-style: none;
+    text-decoration: none;
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/nav-icon/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/header-icon/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/search-icon/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/aa/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/snajiao/iconfont.ttf') format('truetype');
+}

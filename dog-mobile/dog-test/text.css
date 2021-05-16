@@ -1,0 +1,84 @@
+.spot {
+    width: 1em;
+    height: 1em;
+    background-color: #ffc300;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.questionbox {
+    padding: 10px;
+    padding-left: 20px;
+    line-height: 1.5em;
+    margin-top: 5px;
+}
+
+.xuanxiang {
+    font-size: 14px;
+}
+
+.xuanxiang>p>input {
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.test>h3 {
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.head {
+    height: 30px;
+    background-color: rgb(230 230 230);
+}
+
+.jianjiao {
+    transform: rotate(45deg);
+    border-color: cyan;
+}
+
+.submit {
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 4em;
+    background-color: #ffc300;
+    outline: none;
+    border: none;
+    height: 1.8em;
+}
+
+header {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/nav-icon/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/header-icon/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/search-icon/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/aa/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/snajiao/iconfont.ttf') format('truetype');
+}

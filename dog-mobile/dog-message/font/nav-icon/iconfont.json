@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3692939",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "4955887",
+      "name": "熊掌_icon_demo",
+      "font_class": "xiongzhang_icon",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6416503",
+      "name": "族谱",
+      "font_class": "zupu",
+      "unicode": "e8b6",
+      "unicode_decimal": 59574
+    },
+    {
+      "icon_id": "8260507",
+      "name": "搜索--1",
+      "font_class": "search",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "17411320",
+      "name": "画笔",
+      "font_class": "huabi",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "17463589",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "ee83",
+      "unicode_decimal": 61059
+    }
+  ]
+}

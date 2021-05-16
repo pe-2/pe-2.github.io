@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight:normal;
+}
+ul,li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+button{
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+.clearfix::before,
+.clearfix::after{
+    content:" ";
+    display: table;
+    clear: both;
+}
