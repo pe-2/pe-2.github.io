@@ -104,8 +104,8 @@
     padding-right: 10px;
     font-size: 20px;
     margin-top: 10px;
-    margin-boom: 10px;
-    -w box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    margin-bottom: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
 }
 
 .author-avator {
@@ -360,4 +360,19 @@
 
 #asdasdads {
     font-size: 14px;
+}
+
+.playoronpause {
+    position: absolute;
+    width: 3em;
+    height: 2em;
+    background-color: cyan;
+    bottom: 1em;
+    left: 2em;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    opacity: 0.4;
 }
