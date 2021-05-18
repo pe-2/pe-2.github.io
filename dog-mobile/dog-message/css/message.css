@@ -46,6 +46,8 @@ ul {
     font-size: 25px;
     text-align: center;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .topbox span {
@@ -80,6 +82,8 @@ ul {
     height: 90%;
     border-radius: 30px;
     box-shadow: 0px 1.6px 3.6px rgb(0 0 0 / 13%), 0px 0px 2.9px rgb(0 0 0 / 11%);
+    border: 0.1px solid;
+    border-color: #ffc300;
 }
 
 .photo {
