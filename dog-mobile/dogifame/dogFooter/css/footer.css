@@ -70,6 +70,7 @@
     height: 50px;
     width: 50px;
     box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+    line-height: 30px;
 }
 
 .service::before {

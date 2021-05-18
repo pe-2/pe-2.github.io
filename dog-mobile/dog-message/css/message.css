@@ -96,7 +96,7 @@ ul {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url(../images/医生.jpg);
+    background-image: url(../images/doctor.jpg);
     background-size: cover;
 }
 
@@ -131,7 +131,7 @@ ul {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url(../images/商家.jpg);
+    background-image: url(../images/bus.jpg);
     background-size: cover;
 }
 
@@ -139,7 +139,7 @@ ul {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url(../images/犬主一号.jpg);
+    background-image: url(../images/dog1.jpg);
     background-size: cover;
 }
 
@@ -147,6 +147,6 @@ ul {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url(../images/犬主2号.jpg);
+    background-image: url(../images/dog2.jpg);
     background-size: cover;
 }

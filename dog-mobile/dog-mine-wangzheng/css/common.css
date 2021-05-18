@@ -5,18 +5,20 @@
   background-color: rgba(241,245,244);
 }
 .head{
+    display: flex;
     flex: 2;
     margin-left: 5vw;
 }
 .head img{
+  margin: auto;
   float: left;
   width: 15vw;
 }
 .head span{
   display: block;
   position: relative;
-  top: 4vh;
-  right: -2vw;
+  top: 5vh;
+  right: 5vw;
 }
 .listen
 ,.tool{
@@ -25,7 +27,7 @@
 .listen img
 ,.tool img{
      width: 10vw;
-     height:8vh;
+     height: 8vh;
 }
 .listen img{
   position: relative;
@@ -41,8 +43,8 @@
 .shopping{
   display: flex;
   margin: 0 auto;
-  width: 80vw;
-  height: 14vh;
+  width: 90vw;
+  height: 8vh;
 }
 .store
 ,.scan
@@ -62,8 +64,8 @@
 }
 .form{
   display: flex;
-  margin: -4vh auto 0;
-  width: 80vw;
+  margin: -2vh auto 0;
+  width: 90vw;
   height: 12vh;
   border-radius: 4vh;
   background-color: #fff;
@@ -73,7 +75,7 @@
 .Form::before{
   content: '我的订单';
   position: relative;
-  top: 0vh;
+  top: 2vh;
   left: 15vw;
 }
 .Form::after{
@@ -88,32 +90,27 @@
 .form>div
 {
   flex:1;
-  background-size:11vh;
+  background-size:80vw;
 }
 .box1{
-  background: url(../img/image/微信图片_202105141752081.jpg) no-repeat;
-  background-position:0;
+  background: url(../img/image/微信图片_202105161947481.jpg) 0px 0px no-repeat;
 }
 .box2{
-  background: url(../img/image/微信图片_202105141752082.jpg) no-repeat;
-  background-position:0;
+  background: url(../img/image/微信图片_202105161947481.jpg) -60px 0px no-repeat;
 }
 .box3{
-  background: url(../img/image/微信图片_202105141752083.jpg) no-repeat;
-  background-position:0;
+  background: url(../img/image/微信图片_202105161947481.jpg) -120px 0px no-repeat;
 }
 .box4{
-  background: url(../img/image/微信图片_202105141752084.jpg) no-repeat;
-  background-position:0;
+  background: url(../img/image/微信图片_202105161947481.jpg) -175px 0px no-repeat;
 }
 .box5{
-  background: url(../img/image/微信图片_202105141752085.jpg) no-repeat;
-  background-position:0;
+  background: url(../img/image/微信图片_202105161947481.jpg)  -240px 0px no-repeat;
 } 
 .consult{
   display: flex;
   margin: -4vh auto 0;
-  width: 80vw;
+  width: 90vw;
   height: 12vh;
   border-radius: 4vh;
   background-color: #fff;
@@ -122,7 +119,7 @@
 }
 .consult>div{
   flex:1;
-  background-size: 10vh;
+  background-size: 80vw;
 }
 .Consult::before{
   content: '咨询订单';
@@ -140,19 +137,19 @@
 } 
 
 .cbox1{
-  background: url(../img/image/微信图片1.jpg) no-repeat;
+  background: url(../img/image/微信图片.jpg) 15px 0px no-repeat
 }
 .cbox2{
-  background: url(../img/image/微信图片2.jpg) no-repeat;
+  background: url(../img/image/微信图片.jpg) -50px 0px no-repeat;
 }
 .cbox3{
-  background: url(../img/image/微信图片3.jpg) no-repeat;
+  background: url(../img/image/微信图片.jpg) -115px 0px no-repeat;
 } 
 .three_part{
   display: flex;
-  margin: -2vh auto 0;
+  margin: -1vh auto 0;
   height: 18vh;
-  width: 80vw;
+  width: 90vw;
 }
 .together
 ,.bargain{
@@ -193,15 +190,17 @@
 }
 .together img
 ,.bargain img{
+  margin-top: 2vh;
+  margin-right: 3vw;
   flex: 1;
   display: block;
-  width: 50%;
-  height: 100%;
+  width: 30%;
+  height: 80%;
 }
 .pet{
   display: flex;
   margin: -1vh auto 0;
-  width: 80vw;
+  width: 90vw;
   height: 14vh;
   border-radius: 4vh;
   background-color: #fff;
@@ -210,7 +209,7 @@
 }
 .pet>div{
   flex:1;
-  background-size: 10vh;
+  background-size: 80vw;
 }
 .Pet::before{
   content: '我的宠物';
@@ -227,8 +226,8 @@
   right: -70vw;
 } 
 .pbox1{
-  background: url(../img/image/微信图片_202105141.jpg) no-repeat;
+  background: url(../img/image/微信图片_20210514.jpg) 0px 0px no-repeat;
 }
 .pbox2{
-  background: url(../img/image/微信图片_202105142.jpg) no-repeat;
-}
+  background: url(../img/image/微信图片_20210514.jpg)-70px 1px no-repeat
+} 
