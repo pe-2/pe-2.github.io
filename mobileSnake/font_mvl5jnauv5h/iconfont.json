@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7574993",
+      "name": "斜杠",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "8093223",
+      "name": "分 享",
+      "font_class": "fenxiang",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "11588621",
+      "name": "home",
+      "font_class": "xuanzhongshangcheng",
+      "unicode": "e517",
+      "unicode_decimal": 58647
+    }
+  ]
+}
