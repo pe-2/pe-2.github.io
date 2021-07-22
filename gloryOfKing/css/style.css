@@ -1,0 +1,434 @@
+/* 初始化样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.back {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.font-fam {
+    font-family: cursive;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.grid-center {
+    display: grid;
+    place-content: center;
+}
+
+
+/* 正文开始 */
+
+nav {
+    height: 55px;
+    width: 100vw;
+    background-color: rgba(50, 50, 50, 0.5);
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.home {
+    height: 97vh;
+    background-image: url(../source/img/home.jpeg);
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    background-size: 110%;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.menu>ul>li {
+    width: 4.5em;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clickmenu {
+    color: black;
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.home-content>h2 {
+    margin-bottom: 25px;
+}
+
+.home-content>p {
+    font-size: 19px;
+}
+
+.home-content {
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.more {
+    width: 220px;
+    height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 35px;
+    font-size: 20px;
+    transition: all 1s ease-in-out;
+}
+
+.gradient-text-one {
+    background-image: -webkit-linear-gradient(bottom, red, #fd8403, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease-in-out;
+}
+
+.more-f:hover .more {
+    color: black;
+    border-color: black;
+    transform: rotate(360deg);
+}
+
+.next {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    animation: huxi 1.5s ease-in-out 1s infinite alternate;
+}
+
+.jianjiao {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-bottom: transparent;
+    border-left: transparent;
+    transform: rotate(135deg);
+}
+
+@keyframes huxi {
+    50% {
+        bottom: 50px;
+    }
+    62.5% {
+        bottom: 75px;
+    }
+    87.5% {
+        bottom: 25px;
+    }
+    100% {
+        bottom: 50px;
+    }
+}
+
+.about,
+.show,
+.shichang {
+    height: 97vh;
+    position: relative;
+}
+
+.this-about {
+    height: 50px;
+}
+
+.this-about>div {
+    width: 150px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 100%;
+    line-height: 50px;
+}
+
+.about-content {
+    height: 80vh;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img {
+    background-image: url(../source/img/jieshao.jpeg);
+}
+
+.img {
+    height: 30vw;
+    flex: 1;
+}
+
+.img:hover {
+    z-index: 1;
+}
+
+.img:hover+.jieshao-about {
+    opacity: 0.5;
+}
+
+.jieshao-about::-webkit-scrollbar {
+    width: 0;
+}
+
+.jieshao-about {
+    height: 70%;
+    flex: 1.5;
+    box-sizing: border-box;
+    padding-left: 30px;
+    background: white;
+    border: 1px solid #ece4e4;
+    padding-right: 30px;
+    padding-top: 30px;
+    transform: translate(-60px, 60px);
+    overflow: auto;
+}
+
+.jieshao-about>p {
+    text-indent: 40px;
+    margin-top: 1em;
+}
+
+.this-show {
+    width: 150px;
+    height: 50px;
+    border: 1px solid;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.photo-wrapper {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.photo-wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.photo-big {
+    height: 100%;
+    display: inline-block;
+}
+
+.photo-big>img {
+    height: 100%;
+}
+
+.photo {
+    height: 100%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+img {
+    height: 100%;
+}
+
+.button-wrapper {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    margin-top: -80px;
+    opacity: 0.6;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left-button,
+.right-button {
+    width: 35px;
+    height: 100%;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.left-button>.jianjiao {
+    width: 13px;
+    height: 13px;
+    border-width: 2px;
+    transform: translate(3px, 0) rotate(-135deg);
+}
+
+.right-button>.jianjiao {
+    width: 13px;
+    height: 13px;
+    border-width: 2px;
+    transform: translate(-3px, 0) rotate(45deg);
+}
+
+.shichang-content {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.shi-show {
+    height: 80%;
+    display: inline-block;
+}
+
+.text-shi-wrapper>p {
+    text-indent: 2em;
+    margin-top: 1em;
+}
+
+.text-shi-wrapper {
+    box-sizing: border-box;
+    padding: 52px;
+}
+
+footer {
+    height: 90px;
+    background-color: #222;
+    line-height: 90px;
+    color: white;
+    font-size: 18px;
+}
+
+.form-wrapper {
+    margin-top: 100px;
+}
+
+.form-wrapper>form {
+    width: 50vw;
+    height: 60%;
+    margin: 0 auto;
+    background-image: url(../source/img/zhuge.jpeg);
+    padding: 30px;
+    color: white;
+    background-position: 50% 50%;
+}
+
+.form-wrapper>form>p {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-wrapper>form>p>input {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+    font-size: 17px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(100, 100, 100, 0.5);
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+}
+
+.form-wrapper>form>p>input::placeholder,
+textarea::placeholder {
+    color: black;
+    font-size: 17px;
+    color: white;
+}
+
+#submit {
+    width: 150px;
+    margin: 0 auto;
+    background-color: white;
+    padding-right: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+.this-show-text {
+    transform: translate(0, -60px);
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    overflow: scroll;
+}
+
+.contact {
+    min-height: 97vh;
+}
+
+footer {
+    margin-top: 50px;
+}
